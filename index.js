@@ -18,6 +18,14 @@ app.get('/', function (req, res) {
     res.render('home')
 })
 
+app.get('/devices', function (req, res) {
+    res.render('devices')
+})
+
+app.get('/about', function (req, res) {
+    res.render('about')
+})
+
 
 
 
